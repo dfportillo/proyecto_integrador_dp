@@ -1,0 +1,16 @@
+/*boton seguir comprando y boton pagar*/
+
+.btn-k-b-wrapper{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-k-b-wrapper{
+    border: 1px solid black;
+}
+
+.btn-keep-buying{
+    text-transform: uppercase;
+}

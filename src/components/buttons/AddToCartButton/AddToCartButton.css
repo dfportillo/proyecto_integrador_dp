@@ -1,0 +1,18 @@
+.btn-detail-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-detail{
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    height: 48px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-size: 1em;
+}

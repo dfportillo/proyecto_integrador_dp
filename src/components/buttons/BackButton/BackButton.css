@@ -1,0 +1,13 @@
+/*link vuelta(back-button)*/
+
+.btn-back{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightslategrey;
+    font-size: 1em;
+}
+
+.btn-back:hover{
+    box-shadow: 5px 5px 2.5px grey;
+    border-radius: 0.2em;
+}

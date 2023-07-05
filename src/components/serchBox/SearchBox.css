@@ -1,0 +1,21 @@
+/* serch BOX */ 
+
+.serch-box-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.serch-box{
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    height: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+}
