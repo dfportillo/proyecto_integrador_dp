@@ -43,7 +43,7 @@ let ItemList = ({ dataSources }) => {
             const aux = await dataSources.products().all();
             setItems(aux);
         })();
-    });
+    },[]);
 
     const filter = useSearchFilter();
     console.log(filter);

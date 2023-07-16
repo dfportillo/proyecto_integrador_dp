@@ -2,13 +2,13 @@ import { ApiDataSource, MockDataSource } from "./sources";
 
 // builders
 
-const productsDataSourceBuilder = (dataSource) = () => {
+const productsDataSourceBuilder = (dataSource) => () => 
     ({
         all: dataSource.getAllProducts
     })
-}
 
-const checkOutDataSourceBuilder = (dataSource) = () => {
+
+const checkOutDataSourceBuilder = (dataSource) => () => {
     ({
         post: dataSource.postCheckOutData
     })
