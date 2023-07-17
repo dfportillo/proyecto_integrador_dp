@@ -1,6 +1,6 @@
 import './detailCss.css'
 import { Navbar,ItemDetail } from '../../components'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { BackButton,AddToCartButton } from '../../components/buttons'
 
 
