@@ -1,0 +1,4 @@
+export const ADD_PROUDCT = 'ADD_PRODUCT';
+export const REMOVE_PROUDCT = 'REMOVE_PRODUCT';
+export const UPDATE_PROUDCT = 'UPDATE_PRODUCT';
+export const LIST_PROUDCT = 'LIST_PRODUCT';
