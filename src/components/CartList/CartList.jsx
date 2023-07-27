@@ -1,5 +1,6 @@
 import CartItem from '../CartItem/CartItem';
 import './CartList.css'
+import { connect } from 'react-redux';
 
 const itemsMock = [ /*recursos disponibles */
     {
@@ -61,4 +62,6 @@ function CartList() {
     )
 }
 
-export default CartList
+// const mapStateToProps = ''; //* (27/07/2023) queda pendiente la conexion con el store de redux 
+
+export default connect()(CartList) // HOC 

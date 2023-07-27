@@ -8,7 +8,7 @@ const productState = { //para saber que ha pasado con la lista de productos
     productList:[], // lista en general
     productCreated:null, // ultimo producto creado
     productUpdated:null, // ultimo producto actualizado
-    productRemove:null // ultimo producto que fue eliminado
+    productRemoved:null // ultimo producto que fue eliminado
 };
 
 const productReducer = (state = productState, action) => {
@@ -17,20 +17,18 @@ const productReducer = (state = productState, action) => {
 
     switch(action.type){
         case ADD_PROUDCT:
-            return {...productNewState, productCreated: action.payload}
-        break;
+            return {...productNewState, productCreated: action.payload};
 
         case REMOVE_PROUDCT:
-
-        break;
+            return {
+                ...productNewState, productRemoved:action.payload};
 
         case UPDATE_PROUDCT:
-
-        break;
+            return {
+                ...productNewState, productUpdated:action.payload};
 
         case LIST_PROUDCT:
-
-        break;
+            return {...productNewState,productList:action.payload}
 
         default:
 
@@ -38,3 +36,5 @@ const productReducer = (state = productState, action) => {
     }
 
 };
+
+export default productReducer;
